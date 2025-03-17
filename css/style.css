@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Siemreap&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bayon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Moul&display=swap");
+
+p {
+  font-family: "Siemreap", sans-serif;
+  margin-left: 50px; /* This will move the paragraph 50px to the right */
+}
+
+h3 {
+  font-family: "Bayon", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.featured,
+.more-news {
+  font-family: "Moul", sans-serif;
+  max-width: 1500px;
+  margin: 50px auto;
+  padding: 15px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.articles {
+  display: flex;
+  gap: 50px;
+}
+
+article {
+  width: 48%;
+}
+
+article img {
+  width: 100%;
+  border-radius: 5px;
+}
+article video {
+  width: 102%;
+  border-radius: 5px;
+}
